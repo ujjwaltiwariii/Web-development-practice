@@ -1,0 +1,29 @@
+.flex{
+    display: inline-flex;
+    flex: 1 1 300px;
+    /* justify-content: start; */
+    overflow: hidden;
+    border-radius: 10px;
+    border: 1px solid #ccc;
+    
+}
+img{
+    padding: 0.8rem;
+}
+.searchbox{
+    flex: 1;
+    border: 0;
+    
+}
+.srchbtn{
+    border: 0;
+    color: white;
+    border-radius: 8px;
+    padding: 0.8rem;
+    background-color: #157ddf;
+    
+}
+.searchbox:focus{
+    outline: none;
+
+}
